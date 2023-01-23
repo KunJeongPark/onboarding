@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="aam-mS-7aC">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="0jn-K5-cfD">
+            <objects>
+                <navigationController id="aam-mS-7aC" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Omz-xy-4Vo">
+                        <rect key="frame" x="0.0" y="59" width="393" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="x9d-08-0xW" kind="relationship" relationship="rootViewController" id="CWh-jP-3Bf"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qI3-ek-Gpm" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1521" y="-69"/>
+        </scene>
+        <!--Selection View Controller-->
+        <scene sceneID="En0-Zt-f1h">
+            <objects>
+                <viewController id="x9d-08-0xW" customClass="SelectionViewController" customModule="onboarding2" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="mq6-oe-9SF">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="zs8-4c-1Z0">
+                                <rect key="frame" x="40" y="224" width="313" height="594"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </tableView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Select a method of payment" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kbs-6o-Eyg">
+                                <rect key="frame" x="89.333333333333329" y="153" width="214.33333333333337" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="0i4-1p-Thm"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="zs8-4c-1Z0" firstAttribute="centerX" secondItem="mq6-oe-9SF" secondAttribute="centerX" id="8wp-Yh-Cfv"/>
+                            <constraint firstItem="zs8-4c-1Z0" firstAttribute="leading" secondItem="0i4-1p-Thm" secondAttribute="leading" constant="40" id="N4g-ZU-Nws"/>
+                            <constraint firstItem="Kbs-6o-Eyg" firstAttribute="top" secondItem="0i4-1p-Thm" secondAttribute="top" constant="50" id="STU-yl-eqz"/>
+                            <constraint firstItem="Kbs-6o-Eyg" firstAttribute="centerX" secondItem="mq6-oe-9SF" secondAttribute="centerX" id="eoS-bX-fST"/>
+                            <constraint firstItem="zs8-4c-1Z0" firstAttribute="top" secondItem="Kbs-6o-Eyg" secondAttribute="bottom" constant="50" id="oNi-M4-dpj"/>
+                            <constraint firstItem="0i4-1p-Thm" firstAttribute="trailing" secondItem="zs8-4c-1Z0" secondAttribute="trailing" constant="40" id="pCx-Kf-vWA"/>
+                            <constraint firstItem="0i4-1p-Thm" firstAttribute="bottom" secondItem="zs8-4c-1Z0" secondAttribute="bottom" id="qNt-xc-7S5"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="M9M-0v-Lxg"/>
+                    <connections>
+                        <outlet property="tableView" destination="zs8-4c-1Z0" id="Up2-bL-8qD"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Wpz-vu-5wW" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-746" y="-69"/>
+        </scene>
+        <!--Credit Card View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController storyboardIdentifier="CreditCardViewController" id="BYZ-38-t0r" customClass="CreditCardViewController" customModule="onboarding2" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Enter Credit Card Number" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Lza-6X-TX3">
+                                <rect key="frame" x="97.666666666666671" y="159" width="197.66666666666663" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Card Number" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="cmM-wF-JyH">
+                                <rect key="frame" x="71.666666666666686" y="230" width="250" height="34"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="250" id="aAl-c9-bWQ"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2ly-cT-Bdx">
+                                <rect key="frame" x="148.66666666666666" y="314" width="95.666666666666657" height="35"/>
+                                <color key="backgroundColor" systemColor="systemYellowColor"/>
+                                <color key="tintColor" red="0.072948735745466523" green="0.2729412482694038" blue="0.88150376080000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Add Card"/>
+                                <connections>
+                                    <action selector="addCardNumber:" destination="BYZ-38-t0r" eventType="touchUpInside" id="stt-ap-yEF"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="2ly-cT-Bdx" firstAttribute="top" secondItem="cmM-wF-JyH" secondAttribute="bottom" constant="50" id="9YP-BM-yOA"/>
+                            <constraint firstItem="Lza-6X-TX3" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="100" id="GDI-AD-RX0"/>
+                            <constraint firstItem="cmM-wF-JyH" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="XqY-fg-PXc"/>
+                            <constraint firstItem="2ly-cT-Bdx" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="feg-cf-nQE"/>
+                            <constraint firstItem="Lza-6X-TX3" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="r4H-rZ-9S5"/>
+                            <constraint firstItem="cmM-wF-JyH" firstAttribute="top" secondItem="Lza-6X-TX3" secondAttribute="bottom" constant="50" id="xAv-El-s5b"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="addCardButton" destination="2ly-cT-Bdx" id="Od5-d3-Qrk"/>
+                        <outlet property="cardNumberTextField" destination="cmM-wF-JyH" id="hfC-ww-XFP"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="95" y="-62"/>
+        </scene>
+        <!--Paypal View Controller-->
+        <scene sceneID="Dtn-5f-mt3">
+            <objects>
+                <viewController storyboardIdentifier="PaypalViewController" id="XNJ-SL-N2p" customClass="PaypalViewController" customModule="onboarding2" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5Wq-m6-I2h">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EtM-iK-cR2">
+                                <rect key="frame" x="125" y="179" width="143" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemYellowColor"/>
+                                <color key="tintColor" red="0.072948735749999993" green="0.27294124829999999" blue="0.88150376080000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Pay with PayPal"/>
+                                <connections>
+                                    <action selector="paypalButtonPressed:" destination="XNJ-SL-N2p" eventType="touchUpInside" id="fu1-EC-erm"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="zLK-hd-vCm"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <connections>
+                        <outlet property="paypalButton" destination="EtM-iK-cR2" id="NOu-dy-knf"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="VqN-jq-rI6" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="847" y="-48"/>
+        </scene>
+        <!--Venmo View Controller-->
+        <scene sceneID="y8Z-zH-Zk5">
+            <objects>
+                <viewController storyboardIdentifier="VenmoViewController" id="276-rE-tSz" customClass="VenmoViewController" customModule="onboarding2" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="lgS-XD-aGR">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f08-kP-kD6">
+                                <rect key="frame" x="124" y="169" width="145" height="35"/>
+                                <color key="backgroundColor" systemColor="systemYellowColor"/>
+                                <color key="tintColor" red="0.072948735749999993" green="0.27294124829999999" blue="0.88150376080000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Pay with Venmo"/>
+                                <connections>
+                                    <action selector="venmoPayPressed:" destination="276-rE-tSz" eventType="touchUpInside" id="vSm-q1-oGO"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="IPj-yn-glL"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="f08-kP-kD6" firstAttribute="top" secondItem="IPj-yn-glL" secondAttribute="top" constant="110" id="3Q4-OJ-rmD"/>
+                            <constraint firstItem="f08-kP-kD6" firstAttribute="centerX" secondItem="lgS-XD-aGR" secondAttribute="centerX" id="fkF-hq-OxZ"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="venmoButton" destination="f08-kP-kD6" id="Qil-pB-MOh"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rrh-mz-8uE" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1886" y="-53"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemYellowColor">
+            <color red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

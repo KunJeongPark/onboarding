@@ -1,0 +1,748 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3B0955A929797EB5003F93E7 /* PayPalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B0955A829797EB5003F93E7 /* PayPalViewController.swift */; };
+		3B5C8929296F55A90099EE03 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B5C8928296F55A90099EE03 /* AppDelegate.swift */; };
+		3B5C892B296F55A90099EE03 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B5C892A296F55A90099EE03 /* SceneDelegate.swift */; };
+		3B5C892D296F55A90099EE03 /* CreditCardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B5C892C296F55A90099EE03 /* CreditCardViewController.swift */; };
+		3B5C8930296F55A90099EE03 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B5C892E296F55A90099EE03 /* Main.storyboard */; };
+		3B5C8932296F55AA0099EE03 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B5C8931296F55AA0099EE03 /* Assets.xcassets */; };
+		3B5C8935296F55AA0099EE03 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B5C8933296F55AA0099EE03 /* LaunchScreen.storyboard */; };
+		3B5C8940296F55AB0099EE03 /* onboarding2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B5C893F296F55AB0099EE03 /* onboarding2Tests.swift */; };
+		3B5C894A296F55AB0099EE03 /* onboarding2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B5C8949296F55AB0099EE03 /* onboarding2UITests.swift */; };
+		3B5C894C296F55AB0099EE03 /* onboarding2UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B5C894B296F55AB0099EE03 /* onboarding2UITestsLaunchTests.swift */; };
+		3B5C8959297053000099EE03 /* SelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B5C8958297053000099EE03 /* SelectionViewController.swift */; };
+		3B5C895F2970B1150099EE03 /* BraintreeAmericanExpress in Frameworks */ = {isa = PBXBuildFile; productRef = 3B5C895E2970B1150099EE03 /* BraintreeAmericanExpress */; };
+		3B5C89612970B1150099EE03 /* BraintreeApplePay in Frameworks */ = {isa = PBXBuildFile; productRef = 3B5C89602970B1150099EE03 /* BraintreeApplePay */; };
+		3B5C89632970B1150099EE03 /* BraintreeCard in Frameworks */ = {isa = PBXBuildFile; productRef = 3B5C89622970B1150099EE03 /* BraintreeCard */; };
+		3B5C89652970B1150099EE03 /* BraintreeCore in Frameworks */ = {isa = PBXBuildFile; productRef = 3B5C89642970B1150099EE03 /* BraintreeCore */; };
+		3B5C89672970B1150099EE03 /* BraintreeDataCollector in Frameworks */ = {isa = PBXBuildFile; productRef = 3B5C89662970B1150099EE03 /* BraintreeDataCollector */; };
+		3B5C89692970B1150099EE03 /* BraintreePayPal in Frameworks */ = {isa = PBXBuildFile; productRef = 3B5C89682970B1150099EE03 /* BraintreePayPal */; };
+		3B5C896B2970B1150099EE03 /* BraintreePayPalNativeCheckout in Frameworks */ = {isa = PBXBuildFile; productRef = 3B5C896A2970B1150099EE03 /* BraintreePayPalNativeCheckout */; };
+		3B5C896D2970B1150099EE03 /* BraintreePaymentFlow in Frameworks */ = {isa = PBXBuildFile; productRef = 3B5C896C2970B1150099EE03 /* BraintreePaymentFlow */; };
+		3B5C896F2970B1150099EE03 /* BraintreeSEPADirectDebit in Frameworks */ = {isa = PBXBuildFile; productRef = 3B5C896E2970B1150099EE03 /* BraintreeSEPADirectDebit */; };
+		3B5C89712970B1150099EE03 /* BraintreeThreeDSecure in Frameworks */ = {isa = PBXBuildFile; productRef = 3B5C89702970B1150099EE03 /* BraintreeThreeDSecure */; };
+		3B5C89732970B1150099EE03 /* BraintreeUnionPay in Frameworks */ = {isa = PBXBuildFile; productRef = 3B5C89722970B1150099EE03 /* BraintreeUnionPay */; };
+		3B5C89752970B1150099EE03 /* BraintreeVenmo in Frameworks */ = {isa = PBXBuildFile; productRef = 3B5C89742970B1150099EE03 /* BraintreeVenmo */; };
+		3B5C897829774A260099EE03 /* PayPalDataCollector in Frameworks */ = {isa = PBXBuildFile; productRef = 3B5C897729774A260099EE03 /* PayPalDataCollector */; };
+		3BB1EF70297B3C100039F364 /* VenmoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BB1EF6F297B3C100039F364 /* VenmoViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3B5C893C296F55AB0099EE03 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3B5C891D296F55A90099EE03 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3B5C8924296F55A90099EE03;
+			remoteInfo = onboarding2;
+		};
+		3B5C8946296F55AB0099EE03 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3B5C891D296F55A90099EE03 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3B5C8924296F55A90099EE03;
+			remoteInfo = onboarding2;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3B0955A829797EB5003F93E7 /* PayPalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PayPalViewController.swift; sourceTree = "<group>"; };
+		3B5C8925296F55A90099EE03 /* onboarding2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = onboarding2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B5C8928296F55A90099EE03 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3B5C892A296F55A90099EE03 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		3B5C892C296F55A90099EE03 /* CreditCardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditCardViewController.swift; sourceTree = "<group>"; };
+		3B5C892F296F55A90099EE03 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3B5C8931296F55AA0099EE03 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3B5C8934296F55AA0099EE03 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3B5C8936296F55AA0099EE03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B5C893B296F55AB0099EE03 /* onboarding2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = onboarding2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B5C893F296F55AB0099EE03 /* onboarding2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = onboarding2Tests.swift; sourceTree = "<group>"; };
+		3B5C8945296F55AB0099EE03 /* onboarding2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = onboarding2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B5C8949296F55AB0099EE03 /* onboarding2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = onboarding2UITests.swift; sourceTree = "<group>"; };
+		3B5C894B296F55AB0099EE03 /* onboarding2UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = onboarding2UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3B5C8958297053000099EE03 /* SelectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectionViewController.swift; sourceTree = "<group>"; };
+		3BB1EF6F297B3C100039F364 /* VenmoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VenmoViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3B5C8922296F55A90099EE03 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B5C89652970B1150099EE03 /* BraintreeCore in Frameworks */,
+				3B5C895F2970B1150099EE03 /* BraintreeAmericanExpress in Frameworks */,
+				3B5C89612970B1150099EE03 /* BraintreeApplePay in Frameworks */,
+				3B5C89732970B1150099EE03 /* BraintreeUnionPay in Frameworks */,
+				3B5C89632970B1150099EE03 /* BraintreeCard in Frameworks */,
+				3B5C896B2970B1150099EE03 /* BraintreePayPalNativeCheckout in Frameworks */,
+				3B5C89692970B1150099EE03 /* BraintreePayPal in Frameworks */,
+				3B5C897829774A260099EE03 /* PayPalDataCollector in Frameworks */,
+				3B5C896D2970B1150099EE03 /* BraintreePaymentFlow in Frameworks */,
+				3B5C89712970B1150099EE03 /* BraintreeThreeDSecure in Frameworks */,
+				3B5C89752970B1150099EE03 /* BraintreeVenmo in Frameworks */,
+				3B5C896F2970B1150099EE03 /* BraintreeSEPADirectDebit in Frameworks */,
+				3B5C89672970B1150099EE03 /* BraintreeDataCollector in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B5C8938296F55AB0099EE03 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B5C8942296F55AB0099EE03 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3B5C891C296F55A90099EE03 = {
+			isa = PBXGroup;
+			children = (
+				3B5C8927296F55A90099EE03 /* onboarding2 */,
+				3B5C893E296F55AB0099EE03 /* onboarding2Tests */,
+				3B5C8948296F55AB0099EE03 /* onboarding2UITests */,
+				3B5C8926296F55A90099EE03 /* Products */,
+				3B5C897629774A260099EE03 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3B5C8926296F55A90099EE03 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3B5C8925296F55A90099EE03 /* onboarding2.app */,
+				3B5C893B296F55AB0099EE03 /* onboarding2Tests.xctest */,
+				3B5C8945296F55AB0099EE03 /* onboarding2UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3B5C8927296F55A90099EE03 /* onboarding2 */ = {
+			isa = PBXGroup;
+			children = (
+				3B5C8928296F55A90099EE03 /* AppDelegate.swift */,
+				3B5C892A296F55A90099EE03 /* SceneDelegate.swift */,
+				3B5C892C296F55A90099EE03 /* CreditCardViewController.swift */,
+				3B0955A829797EB5003F93E7 /* PayPalViewController.swift */,
+				3BB1EF6F297B3C100039F364 /* VenmoViewController.swift */,
+				3B5C8958297053000099EE03 /* SelectionViewController.swift */,
+				3B5C892E296F55A90099EE03 /* Main.storyboard */,
+				3B5C8931296F55AA0099EE03 /* Assets.xcassets */,
+				3B5C8933296F55AA0099EE03 /* LaunchScreen.storyboard */,
+				3B5C8936296F55AA0099EE03 /* Info.plist */,
+			);
+			path = onboarding2;
+			sourceTree = "<group>";
+		};
+		3B5C893E296F55AB0099EE03 /* onboarding2Tests */ = {
+			isa = PBXGroup;
+			children = (
+				3B5C893F296F55AB0099EE03 /* onboarding2Tests.swift */,
+			);
+			path = onboarding2Tests;
+			sourceTree = "<group>";
+		};
+		3B5C8948296F55AB0099EE03 /* onboarding2UITests */ = {
+			isa = PBXGroup;
+			children = (
+				3B5C8949296F55AB0099EE03 /* onboarding2UITests.swift */,
+				3B5C894B296F55AB0099EE03 /* onboarding2UITestsLaunchTests.swift */,
+			);
+			path = onboarding2UITests;
+			sourceTree = "<group>";
+		};
+		3B5C897629774A260099EE03 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3B5C8924296F55A90099EE03 /* onboarding2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B5C894F296F55AB0099EE03 /* Build configuration list for PBXNativeTarget "onboarding2" */;
+			buildPhases = (
+				3B5C8921296F55A90099EE03 /* Sources */,
+				3B5C8922296F55A90099EE03 /* Frameworks */,
+				3B5C8923296F55A90099EE03 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = onboarding2;
+			packageProductDependencies = (
+				3B5C895E2970B1150099EE03 /* BraintreeAmericanExpress */,
+				3B5C89602970B1150099EE03 /* BraintreeApplePay */,
+				3B5C89622970B1150099EE03 /* BraintreeCard */,
+				3B5C89642970B1150099EE03 /* BraintreeCore */,
+				3B5C89662970B1150099EE03 /* BraintreeDataCollector */,
+				3B5C89682970B1150099EE03 /* BraintreePayPal */,
+				3B5C896A2970B1150099EE03 /* BraintreePayPalNativeCheckout */,
+				3B5C896C2970B1150099EE03 /* BraintreePaymentFlow */,
+				3B5C896E2970B1150099EE03 /* BraintreeSEPADirectDebit */,
+				3B5C89702970B1150099EE03 /* BraintreeThreeDSecure */,
+				3B5C89722970B1150099EE03 /* BraintreeUnionPay */,
+				3B5C89742970B1150099EE03 /* BraintreeVenmo */,
+				3B5C897729774A260099EE03 /* PayPalDataCollector */,
+			);
+			productName = onboarding2;
+			productReference = 3B5C8925296F55A90099EE03 /* onboarding2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3B5C893A296F55AB0099EE03 /* onboarding2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B5C8952296F55AB0099EE03 /* Build configuration list for PBXNativeTarget "onboarding2Tests" */;
+			buildPhases = (
+				3B5C8937296F55AB0099EE03 /* Sources */,
+				3B5C8938296F55AB0099EE03 /* Frameworks */,
+				3B5C8939296F55AB0099EE03 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3B5C893D296F55AB0099EE03 /* PBXTargetDependency */,
+			);
+			name = onboarding2Tests;
+			productName = onboarding2Tests;
+			productReference = 3B5C893B296F55AB0099EE03 /* onboarding2Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3B5C8944296F55AB0099EE03 /* onboarding2UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B5C8955296F55AB0099EE03 /* Build configuration list for PBXNativeTarget "onboarding2UITests" */;
+			buildPhases = (
+				3B5C8941296F55AB0099EE03 /* Sources */,
+				3B5C8942296F55AB0099EE03 /* Frameworks */,
+				3B5C8943296F55AB0099EE03 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3B5C8947296F55AB0099EE03 /* PBXTargetDependency */,
+			);
+			name = onboarding2UITests;
+			productName = onboarding2UITests;
+			productReference = 3B5C8945296F55AB0099EE03 /* onboarding2UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3B5C891D296F55A90099EE03 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					3B5C8924296F55A90099EE03 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					3B5C893A296F55AB0099EE03 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 3B5C8924296F55A90099EE03;
+					};
+					3B5C8944296F55AB0099EE03 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 3B5C8924296F55A90099EE03;
+					};
+				};
+			};
+			buildConfigurationList = 3B5C8920296F55A90099EE03 /* Build configuration list for PBXProject "onboarding2" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3B5C891C296F55A90099EE03;
+			packageReferences = (
+				3B5C895D2970B1150099EE03 /* XCRemoteSwiftPackageReference "braintree_ios" */,
+			);
+			productRefGroup = 3B5C8926296F55A90099EE03 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3B5C8924296F55A90099EE03 /* onboarding2 */,
+				3B5C893A296F55AB0099EE03 /* onboarding2Tests */,
+				3B5C8944296F55AB0099EE03 /* onboarding2UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3B5C8923296F55A90099EE03 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B5C8935296F55AA0099EE03 /* LaunchScreen.storyboard in Resources */,
+				3B5C8932296F55AA0099EE03 /* Assets.xcassets in Resources */,
+				3B5C8930296F55A90099EE03 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B5C8939296F55AB0099EE03 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B5C8943296F55AB0099EE03 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3B5C8921296F55A90099EE03 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BB1EF70297B3C100039F364 /* VenmoViewController.swift in Sources */,
+				3B5C892D296F55A90099EE03 /* CreditCardViewController.swift in Sources */,
+				3B5C8959297053000099EE03 /* SelectionViewController.swift in Sources */,
+				3B5C8929296F55A90099EE03 /* AppDelegate.swift in Sources */,
+				3B0955A929797EB5003F93E7 /* PayPalViewController.swift in Sources */,
+				3B5C892B296F55A90099EE03 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B5C8937296F55AB0099EE03 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B5C8940296F55AB0099EE03 /* onboarding2Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B5C8941296F55AB0099EE03 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B5C894C296F55AB0099EE03 /* onboarding2UITestsLaunchTests.swift in Sources */,
+				3B5C894A296F55AB0099EE03 /* onboarding2UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3B5C893D296F55AB0099EE03 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3B5C8924296F55A90099EE03 /* onboarding2 */;
+			targetProxy = 3B5C893C296F55AB0099EE03 /* PBXContainerItemProxy */;
+		};
+		3B5C8947296F55AB0099EE03 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3B5C8924296F55A90099EE03 /* onboarding2 */;
+			targetProxy = 3B5C8946296F55AB0099EE03 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3B5C892E296F55A90099EE03 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3B5C892F296F55A90099EE03 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3B5C8933296F55AA0099EE03 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3B5C8934296F55AA0099EE03 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3B5C894D296F55AB0099EE03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3B5C894E296F55AB0099EE03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3B5C8950296F55AB0099EE03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5YRAV27ZNE;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = onboarding2/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = onboarding2;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = victoria.com.onboarding2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3B5C8951296F55AB0099EE03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5YRAV27ZNE;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = onboarding2/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = onboarding2;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = victoria.com.onboarding2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3B5C8953296F55AB0099EE03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = victoria.com.onboarding2Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/onboarding2.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/onboarding2";
+			};
+			name = Debug;
+		};
+		3B5C8954296F55AB0099EE03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = victoria.com.onboarding2Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/onboarding2.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/onboarding2";
+			};
+			name = Release;
+		};
+		3B5C8956296F55AB0099EE03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = victoria.com.onboarding2UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = onboarding2;
+			};
+			name = Debug;
+		};
+		3B5C8957296F55AB0099EE03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = victoria.com.onboarding2UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = onboarding2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3B5C8920296F55A90099EE03 /* Build configuration list for PBXProject "onboarding2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B5C894D296F55AB0099EE03 /* Debug */,
+				3B5C894E296F55AB0099EE03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B5C894F296F55AB0099EE03 /* Build configuration list for PBXNativeTarget "onboarding2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B5C8950296F55AB0099EE03 /* Debug */,
+				3B5C8951296F55AB0099EE03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B5C8952296F55AB0099EE03 /* Build configuration list for PBXNativeTarget "onboarding2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B5C8953296F55AB0099EE03 /* Debug */,
+				3B5C8954296F55AB0099EE03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B5C8955296F55AB0099EE03 /* Build configuration list for PBXNativeTarget "onboarding2UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B5C8956296F55AB0099EE03 /* Debug */,
+				3B5C8957296F55AB0099EE03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		3B5C895D2970B1150099EE03 /* XCRemoteSwiftPackageReference "braintree_ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/braintree/braintree_ios";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		3B5C895E2970B1150099EE03 /* BraintreeAmericanExpress */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3B5C895D2970B1150099EE03 /* XCRemoteSwiftPackageReference "braintree_ios" */;
+			productName = BraintreeAmericanExpress;
+		};
+		3B5C89602970B1150099EE03 /* BraintreeApplePay */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3B5C895D2970B1150099EE03 /* XCRemoteSwiftPackageReference "braintree_ios" */;
+			productName = BraintreeApplePay;
+		};
+		3B5C89622970B1150099EE03 /* BraintreeCard */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3B5C895D2970B1150099EE03 /* XCRemoteSwiftPackageReference "braintree_ios" */;
+			productName = BraintreeCard;
+		};
+		3B5C89642970B1150099EE03 /* BraintreeCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3B5C895D2970B1150099EE03 /* XCRemoteSwiftPackageReference "braintree_ios" */;
+			productName = BraintreeCore;
+		};
+		3B5C89662970B1150099EE03 /* BraintreeDataCollector */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3B5C895D2970B1150099EE03 /* XCRemoteSwiftPackageReference "braintree_ios" */;
+			productName = BraintreeDataCollector;
+		};
+		3B5C89682970B1150099EE03 /* BraintreePayPal */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3B5C895D2970B1150099EE03 /* XCRemoteSwiftPackageReference "braintree_ios" */;
+			productName = BraintreePayPal;
+		};
+		3B5C896A2970B1150099EE03 /* BraintreePayPalNativeCheckout */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3B5C895D2970B1150099EE03 /* XCRemoteSwiftPackageReference "braintree_ios" */;
+			productName = BraintreePayPalNativeCheckout;
+		};
+		3B5C896C2970B1150099EE03 /* BraintreePaymentFlow */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3B5C895D2970B1150099EE03 /* XCRemoteSwiftPackageReference "braintree_ios" */;
+			productName = BraintreePaymentFlow;
+		};
+		3B5C896E2970B1150099EE03 /* BraintreeSEPADirectDebit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3B5C895D2970B1150099EE03 /* XCRemoteSwiftPackageReference "braintree_ios" */;
+			productName = BraintreeSEPADirectDebit;
+		};
+		3B5C89702970B1150099EE03 /* BraintreeThreeDSecure */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3B5C895D2970B1150099EE03 /* XCRemoteSwiftPackageReference "braintree_ios" */;
+			productName = BraintreeThreeDSecure;
+		};
+		3B5C89722970B1150099EE03 /* BraintreeUnionPay */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3B5C895D2970B1150099EE03 /* XCRemoteSwiftPackageReference "braintree_ios" */;
+			productName = BraintreeUnionPay;
+		};
+		3B5C89742970B1150099EE03 /* BraintreeVenmo */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3B5C895D2970B1150099EE03 /* XCRemoteSwiftPackageReference "braintree_ios" */;
+			productName = BraintreeVenmo;
+		};
+		3B5C897729774A260099EE03 /* PayPalDataCollector */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3B5C895D2970B1150099EE03 /* XCRemoteSwiftPackageReference "braintree_ios" */;
+			productName = PayPalDataCollector;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 3B5C891D296F55A90099EE03 /* Project object */;
+}
