@@ -26,7 +26,9 @@ class VenmoViewController: UIViewController {
         request.profileID = "1953896702662410263"
        
         self.venmoDriver?.tokenizeVenmoAccount(with: request) {(venmoAccount, error) in
-           
+           // does Venmo app populate fields
+           // in venmoAccount from user entry?
+            // when?
             guard let account = venmoAccount
             else {
                 return
@@ -168,7 +170,6 @@ class VenmoViewController: UIViewController {
                 activityIndicator.removeFromSuperview()
             }
         }
-    
     }
     
 }

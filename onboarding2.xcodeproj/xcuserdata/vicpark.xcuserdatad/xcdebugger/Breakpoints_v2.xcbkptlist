@@ -8,7 +8,7 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "B07EC533-8FEC-4F3F-A6FF-4B237F61AA22"
-            shouldBeEnabled = "No"
+            shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "../../Library/Developer/Xcode/DerivedData/onboarding2-cdldumjchdmqubgznwzwycikpldf/SourcePackages/checkouts/braintree_ios/Sources/BraintreeVenmo/BTVenmoDriver.m"
@@ -24,7 +24,7 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "C15B163D-2F3F-4F63-9F2E-2E6A6F8BD530"
-            shouldBeEnabled = "No"
+            shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "../../Library/Developer/Xcode/DerivedData/onboarding2-cdldumjchdmqubgznwzwycikpldf/SourcePackages/checkouts/braintree_ios/Sources/BraintreeVenmo/BTVenmoDriver.m"
@@ -40,7 +40,7 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "C9BC7BD8-B022-4723-B4B6-D6A79455C35B"
-            shouldBeEnabled = "No"
+            shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "../../Library/Developer/Xcode/DerivedData/onboarding2-cdldumjchdmqubgznwzwycikpldf/SourcePackages/checkouts/braintree_ios/Sources/BraintreeVenmo/BTVenmoDriver.m"
@@ -56,7 +56,7 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "3260B431-7720-4BB2-9180-B1C84789588D"
-            shouldBeEnabled = "No"
+            shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "../../Library/Developer/Xcode/DerivedData/onboarding2-cdldumjchdmqubgznwzwycikpldf/SourcePackages/checkouts/braintree_ios/Sources/BraintreeVenmo/BTVenmoDriver.m"
@@ -142,13 +142,13 @@
             filePath = "onboarding2/VenmoViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "77"
-            endingLineNumber = "77"
+            startingLineNumber = "79"
+            endingLineNumber = "79"
             landmarkName = "postNonceToServer(paymentMethodNonce:)"
             landmarkType = "7">
             <Locations>
                <Location
-                  uuid = "1419F3CA-2254-4409-9CB9-2345F846FB44 - 15cda873512301fb"
+                  uuid = "1419F3CA-2254-4409-9CB9-2345F846FB44 - 15cda873512301bd"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
@@ -158,12 +158,12 @@
                   urlString = "file:///Users/vicpark/Desktop/onboarding2/onboarding2/VenmoViewController.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "77"
-                  endingLineNumber = "77"
+                  startingLineNumber = "79"
+                  endingLineNumber = "79"
                   offsetFromSymbolStart = "3200">
                </Location>
                <Location
-                  uuid = "1419F3CA-2254-4409-9CB9-2345F846FB44 - 99e7f00a3a7e0c6f"
+                  uuid = "1419F3CA-2254-4409-9CB9-2345F846FB44 - 99e7f00a3a7e0dad"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
@@ -173,8 +173,8 @@
                   urlString = "file:///Users/vicpark/Desktop/onboarding2/onboarding2/VenmoViewController.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "79"
-                  endingLineNumber = "79"
+                  startingLineNumber = "81"
+                  endingLineNumber = "81"
                   offsetFromSymbolStart = "492">
                </Location>
             </Locations>
@@ -211,7 +211,7 @@
                   offsetFromSymbolStart = "204">
                </Location>
                <Location
-                  uuid = "8D5D01B7-5E5A-4F43-8FCF-42EA600AB832 - 456b8a780ff1c75"
+                  uuid = "8D5D01B7-5E5A-4F43-8FCF-42EA600AB832 - 456b8a780ff1c37"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
@@ -221,8 +221,8 @@
                   urlString = "file:///Users/vicpark/Desktop/onboarding2/onboarding2/VenmoViewController.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "30"
-                  endingLineNumber = "30"
+                  startingLineNumber = "32"
+                  endingLineNumber = "32"
                   offsetFromSymbolStart = "52">
                </Location>
             </Locations>
@@ -238,8 +238,8 @@
             filePath = "onboarding2/VenmoViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "34"
-            endingLineNumber = "34"
+            startingLineNumber = "36"
+            endingLineNumber = "36"
             landmarkName = "venmoPayPressed(_:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -248,7 +248,7 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "2C889B9A-4419-4AD5-B2B6-FC09B1ABB9B8"
-            shouldBeEnabled = "No"
+            shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "../../Library/Developer/Xcode/DerivedData/onboarding2-cdldumjchdmqubgznwzwycikpldf/SourcePackages/checkouts/braintree_ios/Sources/BraintreeVenmo/BTVenmoDriver.m"
@@ -264,7 +264,7 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "62208EF9-D31A-463E-BA2F-4109AD6A2AEE"
-            shouldBeEnabled = "No"
+            shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "../../Library/Developer/Xcode/DerivedData/onboarding2-cdldumjchdmqubgznwzwycikpldf/SourcePackages/checkouts/braintree_ios/Sources/BraintreeVenmo/BTVenmoDriver.m"
@@ -318,9 +318,201 @@
             filePath = "onboarding2/VenmoViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "32"
-            endingLineNumber = "32"
+            startingLineNumber = "34"
+            endingLineNumber = "34"
             landmarkName = "venmoPayPressed(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1D992F3D-31C1-485E-90BC-689A3ADC14BC"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../Library/Developer/Xcode/DerivedData/onboarding2-cdldumjchdmqubgznwzwycikpldf/SourcePackages/checkouts/braintree_ios/Sources/BraintreeVenmo/BTVenmoDriver.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "293"
+            endingLineNumber = "293"
+            landmarkName = "-handleOpenURL:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7B0CA8DF-CEC1-4CD9-B74D-70EEE8228225"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../Library/Developer/Xcode/DerivedData/onboarding2-cdldumjchdmqubgznwzwycikpldf/SourcePackages/checkouts/braintree_ios/Sources/BraintreeVenmo/BTVenmoDriver.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "294"
+            endingLineNumber = "294"
+            landmarkName = "-handleOpenURL:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4A68B67F-B4A6-4E22-B23F-33CACBB0CD6D"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../Library/Developer/Xcode/DerivedData/onboarding2-cdldumjchdmqubgznwzwycikpldf/SourcePackages/checkouts/braintree_ios/Sources/BraintreeVenmo/BTVenmoDriver.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "280"
+            endingLineNumber = "280"
+            landmarkName = "-handleOpenURL:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C0D4C80E-AF18-481B-AF6B-0F0351887941"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../Library/Developer/Xcode/DerivedData/onboarding2-cdldumjchdmqubgznwzwycikpldf/SourcePackages/checkouts/braintree_ios/Sources/BraintreeCore/BTAppContextSwitcher.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "50"
+            endingLineNumber = "50"
+            landmarkName = "-handleOpenURL:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C050C486-3534-4247-9731-6FC34F90DDD8"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../Library/Developer/Xcode/DerivedData/onboarding2-cdldumjchdmqubgznwzwycikpldf/SourcePackages/checkouts/braintree_ios/Sources/BraintreeCore/BTAppContextSwitcher.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "43"
+            endingLineNumber = "43"
+            landmarkName = "+handleOpenURLContext:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "73D94CFF-1805-40DB-8B7E-FC3B8E831E86"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../Library/Developer/Xcode/DerivedData/onboarding2-cdldumjchdmqubgznwzwycikpldf/SourcePackages/checkouts/braintree_ios/Sources/BraintreeCore/BTAppContextSwitcher.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "39"
+            endingLineNumber = "39"
+            landmarkName = "+handleOpenURL:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "16DC6F30-FB1F-4999-87BD-DAE172A6E092"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../Library/Developer/Xcode/DerivedData/onboarding2-cdldumjchdmqubgznwzwycikpldf/SourcePackages/checkouts/braintree_ios/Sources/BraintreeVenmo/BTVenmoDriver.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "199"
+            endingLineNumber = "199"
+            landmarkName = "-tokenizeVenmoAccountWithVenmoRequest:completion:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "57B2A90C-AA42-420D-8821-CC93BEB340C9"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../Library/Developer/Xcode/DerivedData/onboarding2-cdldumjchdmqubgznwzwycikpldf/SourcePackages/checkouts/braintree_ios/Sources/BraintreeVenmo/BTVenmoDriver.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "350"
+            endingLineNumber = "350"
+            landmarkName = "-handleOpenURL:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8E2F2C9F-6668-45CA-82CB-62D632BDDC65"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../Library/Developer/Xcode/DerivedData/onboarding2-cdldumjchdmqubgznwzwycikpldf/SourcePackages/checkouts/braintree_ios/Sources/BraintreeVenmo/BTVenmoDriver.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "352"
+            endingLineNumber = "352"
+            landmarkName = "-handleOpenURL:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "405CDC34-5F44-4193-AD3F-2E44CE3B00AF"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../Library/Developer/Xcode/DerivedData/onboarding2-cdldumjchdmqubgznwzwycikpldf/SourcePackages/checkouts/braintree_ios/Sources/BraintreeVenmo/BTVenmoDriver.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "345"
+            endingLineNumber = "345"
+            landmarkName = "-handleOpenURL:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "BFCB4859-67B1-48CA-83A4-152EF187D6A8"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../Library/Developer/Xcode/DerivedData/onboarding2-cdldumjchdmqubgznwzwycikpldf/SourcePackages/checkouts/braintree_ios/Sources/BraintreeVenmo/BTVenmoDriver.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "337"
+            endingLineNumber = "337"
+            landmarkName = "-handleOpenURL:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "BDCCDA73-21B7-4EE4-9344-C497BC221DF8"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../Library/Developer/Xcode/DerivedData/onboarding2-cdldumjchdmqubgznwzwycikpldf/SourcePackages/checkouts/braintree_ios/Sources/BraintreeVenmo/BTVenmoDriver.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "338"
+            endingLineNumber = "338"
+            landmarkName = "-handleOpenURL:"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

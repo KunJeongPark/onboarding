@@ -24,7 +24,6 @@ class CreditCardViewController: UIViewController {
     }
     var fetchedClientToken: String = ""
     var braintreeClient: BTAPIClient?
-   // var clientToken: String = ""
     
     @IBAction func addCardNumber(_ sender: Any) {
        submitTransaction()
